@@ -1,0 +1,122 @@
+/* 
+Smart Syntax Light Theme for Google Prettify
+Author : Arulprakash (@arulprakash)
+Author Url: http://www.smartpixels.net
+Project : Smart Syntax Wordpress Plugin
+*/
+
+pre.prettyprint {
+	padding: 2%;
+	border: 2px solid #dadada;
+	margin: 1% 0%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #dadada;
+	overflow-x: auto;
+	word-wrap: break-word;
+	max-height: 250px;
+	overflow-y: scroll;
+	height: 100%;
+	font-family: Menlo, Monaco, monospace;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	background: #FFFFFA;
+	white-space: pre-wrap;
+}
+ pre.prettyprint::-webkit-scrollbar {
+ position:relative;
+ width: 0px;
+}
+/* string content */
+pre.prettyprint .str {
+	color: #01B444;
+}
+/* a keyword */
+pre.prettyprint .kwd {
+	color: #008;
+}
+/* a comment */
+pre.prettyprint .com {
+	color: #AAA;
+}
+/* a type name */
+pre.prettyprint .typ {
+	color: #606;
+}
+/* a literal value */
+pre.prettyprint .lit {
+	color: #6028D8;
+}
+/* punctuation */
+pre.prettyprint .pun {
+	color: #999;
+}
+/* lisp open bracket */
+pre.prettyprint .opn {
+	color: #cccccc;
+}
+/* plain text */
+pre.prettyprint .pln {
+	color: #555;
+}
+/* a markup tag name */
+pre.prettyprint .tag {
+	color: #008;
+}
+/* a markup attribute name */
+pre.prettyprint .atn {
+	color: #3A3A3A;
+}
+/* lisp close bracket */
+pre.prettyprint .clo {
+	color: #cccccc;
+}
+/* a markup attribute value */
+pre.prettyprint .atv {
+	color: #D00555;
+}
+/* a declaration */
+pre.prettyprint .dec {
+	color: #606;
+}
+/* a variable name */
+pre.prettyprint .var {
+	color: #f2777a;
+}
+/* a function name */
+pre.prettyprint .fun {
+	color: #6699cc;
+}
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+.str {
+	color: #060;
+}
+.kwd {
+	color: #006;
+	font-weight: bold;
+}
+.com {
+	color: #600;
+	font-style: italic;
+}
+.typ {
+	color: #404;
+	font-weight: bold;
+}
+.lit {
+	color: #044;
+}
+.pun, .opn, .clo {
+	color: #440;
+}
+.tag {
+	color: #006;
+	font-weight: bold;
+}
+.atn {
+	color: #404;
+}
+.atv {
+	color: #060;
+}
+}
