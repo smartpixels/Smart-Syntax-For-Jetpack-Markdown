@@ -7,7 +7,7 @@ package.json
 gruntfile.js
 assets/css/sass
 assets/js/vendor
-
+.svnignore
 # Compiled source #
 ###################
 *.com
