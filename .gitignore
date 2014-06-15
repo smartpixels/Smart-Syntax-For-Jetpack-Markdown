@@ -5,7 +5,7 @@ config.rb
 package.json
 gruntfile.js
 assets/css/sass
-assets/js/vendor/google-code-prettify
+assets/js/vendor
 
 # Compiled source #
 ###################
