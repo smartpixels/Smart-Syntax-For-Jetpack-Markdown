@@ -29,11 +29,6 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-/**
- * Built using grunt-wp-plugin
- * Copyright (c) 2013 10up, LLC
- * https://github.com/10up/grunt-wp-plugin
- */
 
 // Useful global constants
 define( 'SMART_SYNTAX_VERSION', '1.0.0' );
