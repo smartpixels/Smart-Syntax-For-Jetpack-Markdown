@@ -29,7 +29,10 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 // Useful global constants
 define( 'SMART_SYNTAX_VERSION', '1.0.0' );
 define( 'SMART_SYNTAX_URL',     plugin_dir_url( __FILE__ ) );
