@@ -74,6 +74,6 @@ register_deactivation_hook( __FILE__, 'smart_syntax_deactivate' );
 //filters
 
 	add_filter('the_content', 'smart_syntax_prettyprint', 10);
-    add_filter('comment_text', 'smart_syntax_prettyprint', 10);
+    	add_filter('comment_text', 'smart_syntax_prettyprint', 10);
 
 
